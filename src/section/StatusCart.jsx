@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 
 function StatusCart(props) {
   return (
@@ -13,8 +14,8 @@ function StatusCart(props) {
             <ul className="pb-2">
                 <li className="flex  my-4  bg-slate-200 mx-3 items-center px-3 rounded-lg">
                     <div className="px-4 py-3">
-                        <p className="text-2xl">Nasrullah Mansur</p>
-                        <span>01728619733</span>
+                        <p className="text-2xl">Tamim khan</p>
+                        <span>01919106682</span>
                     </div>
                     <button className={`btn btn-active ${props.bgColor} ml-auto`}>Primary</button>
                 </li>
